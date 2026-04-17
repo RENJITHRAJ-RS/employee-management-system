@@ -1,0 +1,79 @@
+/* Background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+/* Box */
+.login-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  width: 320px;
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #43e97b, #38f9d7);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Link */
+.login-box a {
+  color: #00e0ff;
+  text-decoration: none;
+}
+
+.login-box p {
+  margin-top: 15px;
+}
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #eee;
+}
+
+.pagination button:hover {
+  background: #ccc;
+}
+
+.active-page {
+  background: #00c6ff;
+  color: white;
+}

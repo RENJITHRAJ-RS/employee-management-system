@@ -1,0 +1,303 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: linear-gradient(to right, #4b2ccf, #3a7bd5);
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  color: white;
+  text-align: center;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  width: 100%;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+  max-height: 180px;
+  overflow-y: auto;
+  z-index: 9999;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f2f2f2;
+}
+
+.delete-dept {
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.add-dept {
+  padding: 10px;
+  background: #e6fff2;
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-dept:hover {
+  background: #ccffe6;
+}
+
+.modal-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-btn {
+  background: #00c6ff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: gray;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+.modal-content {
+  background: linear-gradient(to right, #4b2ccf, #3a7bd5);
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  color: white;
+  text-align: center;
+
+  position: relative;
+  overflow: visible; /* 🔥 IMPORTANT FIX */
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+  max-height: 180px;
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+.modal-content {
+  position: relative;
+  overflow: visible;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+  max-height: 180px;
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+/* 🔥 OPEN UP */
+.dropdown.up {
+  bottom: 100%;
+  top: auto;
+  margin-bottom: 5px;
+}
+
+/* ITEM */
+.dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f2f2f2;
+}
+
+/* DELETE */
+.delete-dept {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
+
+/* ADD */
+.add-dept {
+  padding: 10px;
+  background: #e6fff2;
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+}
+.selected-box {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.tag {
+  background: #007bff;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.remove-tag {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.placeholder {
+  color: gray;
+}
+
+.dropdown {
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f0f0f0;
+}
+
+.dropdown-item.selected {
+  background: #d0e0ff;
+}
+.search-box {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.add-new {
+  padding: 8px;
+  color: green;
+  cursor: pointer;
+}
+
+.add-new:hover {
+  background: #f0f0f0;
+}
+.search-box {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.selected-box {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.tag {
+  background: #007bff;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.placeholder {
+  color: gray;
+}
+
+.dropdown {
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f0f0f0;
+}
+
+.dropdown-item.selected {
+  background: #d0e0ff;
+}
+
+.add-new {
+  padding: 8px;
+  color: green;
+  cursor: pointer;
+}
